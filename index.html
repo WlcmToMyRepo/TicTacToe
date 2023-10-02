@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Kalam:wght@700&family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="screen">
+        <div class="game-panel">
+            <div class="top-box">
+                <p><span style="color: aqua;">X</span><span style="color: yellow;">O</span></p>
+                <div class="player">X TURN</div>
+                <button class="reset" ><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+            <button class="box" id="box1"></button>
+            <button class="box" id="box2"></button>
+            <button class="box" id="box3"></button>
+            <button class="box" id="box4"></button>
+            <button class="box" id="box5"></button>
+            <button class="box" id="box6"></button>
+            <button class="box" id="box7"></button>
+            <button class="box" id="box8"></button>
+            <button class="box" id="box9"></button>
+        </div>
+    </div>
+    <div class="result-banner">
+        <div class="msg"></div>
+        <button onClick="closeBanner()">OK</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

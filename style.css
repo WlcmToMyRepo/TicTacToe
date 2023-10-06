@@ -83,7 +83,7 @@ body {
 
 
 .result-banner {
-    /* position: absolute; */
+    position: absolute;
     display: none;
     top:40%;
     color: #fff;
@@ -91,13 +91,14 @@ body {
     height: 200px;
     font-size: 40px;
     width: 100vw;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .result-banner button {
+    /* display: none; */
     height: 40px;
     width: 100px;
     border-radius: 5px;
